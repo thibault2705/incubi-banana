@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<configuration>
+	<host>http://localhost:8080/center/employee</host>
+	<account>team1</account>
+</configuration>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="155" prefWidth="90" stylesheets="@time.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.banana.timer.TimerController">
+  <children>
+    <AnchorPane fx:id="treeAnchorPane" prefHeight="155" prefWidth="90" VBox.vgrow="ALWAYS">
+      <children>
+        <ImageView fx:id="checkinImageView" fitHeight="130" fitWidth="90" visible="false">
+               <image>
+                  <Image url="@images/checkin.png" />
+               </image>
+        </ImageView>
+        <ImageView fx:id="checkoutImageView" fitHeight="130" fitWidth="90" visible="false">
+               <image>
+                  <Image url="@images/checkout.png" />
+               </image>
+        </ImageView>
+        <ImageView fx:id="processImageView" fitHeight="130" fitWidth="90" visible="false">
+               <image>
+                  <Image url="@images/process.png" />
+               </image>
+        </ImageView>
+    	<Button fx:id="button" defaultButton="true" layoutX="10.0" layoutY="130.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Checkin" AnchorPane.rightAnchor="0.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
